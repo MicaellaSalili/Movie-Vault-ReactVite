@@ -1,0 +1,44 @@
+.side-nav {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-nav li {
+  margin: 10px 0;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.side-nav a:hover {
+  color: #007bff;
+}
+
+
+/* Add this CSS file for additional styling */
+
+body {
+  font-family: 'Helvetica', sans-serif; /* Set Helvetica as the default font */
+}
+
+aside {
+  font-family: 'Helvetica', sans-serif;
+}
+
+a {
+  font-family: 'Helvetica', sans-serif;
+}
